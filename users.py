@@ -4,12 +4,11 @@ class User:
     '''
     user_info = []
 
-    def __init__(self, first_name, last_name, username, password, password1):
+    def __init__(self, first_name, last_name, username, password):
         self.first_name = first_name
         self.last_name = last_name
         self.username = username
         self.password = password
-        self.password1 = password1
 
     def save_user_info(self):
         '''
@@ -36,7 +35,7 @@ class User:
         for user in cls.user_info:
             if user.username == username:
                 return user
-        
+    
     @classmethod
     def user_login(cls,username,password):
         '''
