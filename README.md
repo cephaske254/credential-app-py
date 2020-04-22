@@ -1,7 +1,6 @@
 # CREDENTIAL MANAGER
 Credential management app(python)
 
-
 ## Author
 
 [cephas]()
@@ -11,8 +10,9 @@ Credential Manager. https://github.com/cephaske254/credential-app-py
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
+* cd into your preferred location.
+* Clone the repo $ git clone https://github.com/cephaske254/credential-app-py
 * cd credential-app-py
-
 * code . or atom . depending on the text editor of your choice.
 
 ## Technologies Used
