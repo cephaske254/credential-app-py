@@ -48,8 +48,10 @@ class userAccounts:
         '''
         function that allows users to view their account details
         '''
-        for user in cls.user_info:
-            print(f'Usename: {user.username} password: {user.password}')
+        i=0
+        for account in cls.accounts:
+            i+=1
+            print(f'  =>{i}. Platform {account.platform} Username: {account.username} password: {account.password}')
 
     @classmethod
     def copy_password(cls, username, platform):
